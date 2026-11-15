@@ -1,7 +1,7 @@
 # Fortschritt
 
 Aktuelle Phase: **1 – Klick-Prototyp**
-Nächste Aufgabe: Plan für Phase 1 vorlegen (Zod-Schema für Kurse, Lektionen, Karten)
+Nächste Aufgabe: Beispielkurs „Antike“ mit 3 Lektionen als JSON (Entwurf, Fakten danach vom Nutzer prüfen)
 
 ## Phasen (Details in docs/plan.md, Abschnitt Iterationsplan)
 
@@ -23,7 +23,7 @@ Nächste Aufgabe: Plan für Phase 1 vorlegen (Zod-Schema für Kurse, Lektionen, 
 - [x] Platzhalter-Startseite läuft mit `npm run web` und im Handy-Browser
 
 ## Phase 1 – Klick-Prototyp
-- [ ] Zod-Schema für Kurse, Lektionen, Karten (inkl. depth, sources)
+- [x] Zod-Schema für Kurse, Lektionen, Karten (inkl. depth, sources)
 - [ ] Beispielkurs „Antike“ mit 3 Lektionen als JSON
 - [ ] Lernpfad-Screen
 - [ ] Lektion-Player: Erklärkarte, Multiple Choice, Wahr/Falsch, Lückentext
@@ -33,9 +33,12 @@ Nächste Aufgabe: Plan für Phase 1 vorlegen (Zod-Schema für Kurse, Lektionen, 
 | Datum | Entscheidung | Begründung |
 | --- | --- | --- |
 | 2026-11-14 | MVP als Web-App (PWA), Expo als Basis | Konzept ohne Store verproben, native Apps später möglich |
-| 2026-11-15 | Projekt liegt unter C:devwissen-app, Name `wissen-app`; Routen in `app/` | OneDrive vertrug sich nicht mit node_modules; Struktur laut plan.md (ADR 0001) |
+| 2026-11-15 | Projekt liegt unter C:\dev\wissen-app, Name `wissen-app`; Routen in `app/` | OneDrive vertrug sich nicht mit node_modules; Struktur laut plan.md (ADR 0001) |
 | 2026-11-15 | Handy-Test in Phase 0 über Dev-Server im WLAN, kein Hosting | Hosting kommt mit der Web-Beta |
-| 2026-11-15 | `validate:content` vorerst JS-Stub (`scripts/validate-content.js`) | Vermeidet `@types/node`; Umstellung auf TS mit Zod in Phase 1 |
+| 2026-11-15 | `validate:content` bleibt ein JS-Skript (`scripts/validate-content.js`), das das TS-Schema direkt lädt | Vermeidet `@types/node` und einen Build-Schritt |
+| 2026-11-15 | Phase 1 in vier Schritten/PRs: Schema, Inhalt, Lernpfad, Lektion-Player; Design-Mock-up auf später verschoben | Kleine Schritte; Optik erst nach dem Konzepttest |
+| 2026-11-15 | Inhalte unter content/<kurs>/course.json und content/<kurs>/lessons/<lektion>.json; Schema inkl. Querprüfungen in einer Datei (src/content/schema.ts) | Skript lädt TS direkt per Node, ohne Build-Schritt oder @types/node |
+| 2026-11-15 | zod und (ab Lernpfad) zustand freigegeben | Rückfrage beantwortet |
 
 ## Backlog (Ideen für später)
 -
