@@ -1,13 +1,13 @@
 # Fortschritt
 
 Aktuelle Phase: **0 – Fundament**
-Nächste Aufgabe: Expo-Projekt anlegen (siehe Phase 0)
+Nächste Aufgabe: Phase 0 abschließen (Handy-Test, CI grün, Bestätigung), danach Phase 1
 
 ## Phasen (Details in docs/plan.md, Abschnitt Iterationsplan)
 
 | Phase | Ziel | Definition of Done | Status |
 | --- | --- | --- | --- |
-| 0 Fundament | Projekt, Tooling, CI | App läuft im Browser und per Link auf dem Handy | offen |
+| 0 Fundament | Projekt, Tooling, CI | App läuft im Browser und per Link auf dem Handy | in Arbeit |
 | 1 Klick-Prototyp | 1 Kurs, 3 Lektionen, Lektion-Player | Lernkonzept selbst getestet | offen |
 | 2 Lernengine | Fortschritt, FSRS, Fehler-Runde, PWA | 2 Wochen selbst genutzt | offen |
 | 3 Inhalte & Bilder | Supabase, Directus, Bildfragen | 3 Bereiche, Bildfragen laufen | offen |
@@ -16,10 +16,10 @@ Nächste Aufgabe: Expo-Projekt anlegen (siehe Phase 0)
 | 6 Native Apps (optional) | App Stores | wird später entschieden | – |
 
 ## Phase 0 – Fundament
-- [ ] Expo-Projekt (SDK 58, TypeScript strict, Expo Router), Web als Hauptziel
-- [ ] Ordnerstruktur laut docs/plan.md (app/, src/engine, src/content, src/db, src/components, src/theme, content/, scripts/, docs/)
-- [ ] ESLint, Prettier, Jest, npm-Skripte (lint, typecheck, test, validate:content)
-- [ ] GitHub-Repo und GitHub-Actions-CI (lint, typecheck, test)
+- [x] Expo-Projekt (SDK 58, TypeScript strict, Expo Router), Web als Hauptziel
+- [x] Ordnerstruktur laut docs/plan.md (app/, src/engine, src/content, src/db, src/components, src/theme, content/, scripts/, docs/)
+- [x] ESLint, Prettier, Jest, npm-Skripte (lint, typecheck, test, validate:content)
+- [x] GitHub-Repo und GitHub-Actions-CI (lint, typecheck, test)
 - [ ] Platzhalter-Startseite läuft mit `npm run web` und im Handy-Browser
 
 ## Phase 1 – Klick-Prototyp
@@ -33,6 +33,9 @@ Nächste Aufgabe: Expo-Projekt anlegen (siehe Phase 0)
 | Datum | Entscheidung | Begründung |
 | --- | --- | --- |
 | 2026-11-14 | MVP als Web-App (PWA), Expo als Basis | Konzept ohne Store verproben, native Apps später möglich |
+| 2026-11-15 | Projekt liegt unter C:devwissen-app, Name `wissen-app`; Routen in `app/` | OneDrive vertrug sich nicht mit node_modules; Struktur laut plan.md (ADR 0001) |
+| 2026-11-15 | Handy-Test in Phase 0 über Dev-Server im WLAN, kein Hosting | Hosting kommt mit der Web-Beta |
+| 2026-11-15 | `validate:content` vorerst JS-Stub (`scripts/validate-content.js`) | Vermeidet `@types/node`; Umstellung auf TS mit Zod in Phase 1 |
 
 ## Backlog (Ideen für später)
 -
