@@ -1,0 +1,211 @@
+{
+  "id": "punische-kriege",
+  "title": "Punische Kriege",
+  "est_minutes": 8,
+  "cards": [
+    {
+      "id": "punisch-001",
+      "type": "explain",
+      "depth": "hook",
+      "concepts": ["hannibal"],
+      "title": "Elefanten über die Alpen",
+      "body": "Wusstest du? Im Jahr 218 v. Chr. führte ein Feldherr aus Nordafrika ein Heer samt Kriegselefanten über die Alpen, um Rom im eigenen Land anzugreifen. Wer war dieser Mann – und warum ging es trotzdem schief?",
+      "sources": [
+        {
+          "title": "Hannibal – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Hannibal",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-002",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["punische-kriege"],
+      "title": "Rom gegen Karthago",
+      "body": "Karthago, eine Handelsmacht in Nordafrika im Gebiet des heutigen Tunesien, beherrschte große Teile des westlichen Mittelmeers. Rom und Karthago kämpften in drei Kriegen um die Vorherrschaft, den Punischen Kriegen (264–146 v. Chr.). „Punier“ nannten die Römer die Karthager.",
+      "remember": "Drei Kriege zwischen Rom und Karthago, 264 bis 146 v. Chr.",
+      "sources": [
+        {
+          "title": "Punische Kriege – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Punische_Kriege",
+          "kind": "wikipedia"
+        },
+        {
+          "title": "Karthago – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Karthago",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-003",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["hannibal"],
+      "title": "Hannibal",
+      "body": "Im Zweiten Punischen Krieg (218–201 v. Chr.) zog Hannibal von Spanien über die Alpen nach Italien und besiegte die Römer 216 v. Chr. bei Cannae vernichtend. Rom selbst konnte er aber nie erobern. Die Römer griffen schließlich Karthago direkt an, und 202 v. Chr. besiegte der römische Feldherr Scipio Hannibal bei Zama.",
+      "remember": "Hannibal gewann Schlachten, Rom gewann den Krieg.",
+      "sources": [
+        {
+          "title": "Hannibal – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Hannibal",
+          "kind": "wikipedia"
+        },
+        {
+          "title": "Zweiter Punischer Krieg – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Zweiter_Punischer_Krieg",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-004",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["karthago-zerstoerung"],
+      "title": "Das Ende Karthagos",
+      "body": "Im Dritten Punischen Krieg (149–146 v. Chr.) belagerte Rom die Stadt Karthago und zerstörte sie 146 v. Chr. Damit war Rom die unbestrittene Großmacht im westlichen Mittelmeer.",
+      "remember": "146 v. Chr.: Karthago fällt, Rom herrscht im Westen.",
+      "sources": [
+        {
+          "title": "Dritter Punischer Krieg – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Dritter_Punischer_Krieg",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-005",
+      "type": "explain",
+      "depth": "deep",
+      "concepts": ["karthago-zerstoerung"],
+      "title": "Mehr erfahren: „Karthago muss zerstört werden“",
+      "body": "Der römische Politiker Cato der Ältere soll seine Reden im Senat mit dem Satz beendet haben: „Im Übrigen bin ich der Meinung, dass Karthago zerstört werden muss.“ Bis heute steht dieser Spruch sinnbildlich für jemanden, der ein Anliegen unermüdlich wiederholt.",
+      "sources": [
+        {
+          "title": "Cato der Ältere – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Cato_der_%C3%84ltere",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-006",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["punische-kriege"],
+      "prompt": "Welche Stadt war Roms großer Gegner in den Punischen Kriegen?",
+      "options": ["Karthago", "Athen", "Sparta", "Alexandria"],
+      "answer": 0,
+      "explanation": "Karthago lag in Nordafrika, im Gebiet des heutigen Tunesien, und war eine mächtige Handelsstadt.",
+      "sources": [
+        {
+          "title": "Punische Kriege – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Punische_Kriege",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-007",
+      "type": "true_false",
+      "depth": "core",
+      "concepts": ["punische-kriege"],
+      "prompt": "Es gab insgesamt drei Punische Kriege.",
+      "answer": true,
+      "explanation": "Sie fanden 264–241, 218–201 und 149–146 v. Chr. statt. Im dritten Krieg wurde Karthago zerstört.",
+      "sources": [
+        {
+          "title": "Punische Kriege – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Punische_Kriege",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-008",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["hannibal"],
+      "prompt": "Welches Tier machte Hannibals Alpenüberquerung berühmt?",
+      "options": ["Elefanten", "Kamele", "Löwen", "Nashörner"],
+      "answer": 0,
+      "explanation": "Hannibal führte Kriegselefanten über die Alpen. Viele Tiere überlebten den Marsch durch Kälte und Gebirge nicht.",
+      "sources": [
+        {
+          "title": "Hannibal – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Hannibal",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-009",
+      "type": "true_false",
+      "depth": "core",
+      "concepts": ["hannibal"],
+      "prompt": "Hannibal eroberte im Zweiten Punischen Krieg die Stadt Rom.",
+      "answer": false,
+      "explanation": "Hannibal siegte 216 v. Chr. bei Cannae, konnte Rom selbst aber nie einnehmen. Am Ende verlor Karthago den Krieg.",
+      "sources": [
+        {
+          "title": "Schlacht bei Cannae – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Schlacht_bei_Cannae",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-010",
+      "type": "fill_blank",
+      "depth": "core",
+      "concepts": ["punische-kriege"],
+      "prompt": "Die Römer nannten die Karthager ___ – daher der Name „Punische Kriege“.",
+      "options": ["Punier", "Gallier", "Etrusker"],
+      "answer": 0,
+      "explanation": "„Punier“ geht auf das lateinische Poeni zurück, das die Römer für die Karthager verwendeten. Karthago war ursprünglich eine Gründung der Phönizier.",
+      "sources": [
+        {
+          "title": "Punische Kriege – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Punische_Kriege",
+          "kind": "wikipedia"
+        },
+        {
+          "title": "Karthago – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Karthago",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "punisch-011",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["karthago-zerstoerung"],
+      "prompt": "In welchem Jahr wurde Karthago von den Römern zerstört?",
+      "options": ["146 v. Chr.", "509 v. Chr.", "44 v. Chr.", "27 v. Chr."],
+      "answer": 0,
+      "explanation": "146 v. Chr. endete der Dritte Punische Krieg mit der Zerstörung Karthagos. Die anderen Jahre stehen für andere Ereignisse: 509 für die Vertreibung des letzten Königs, 44 für Caesars Ermordung, 27 für Augustus.",
+      "sources": [
+        {
+          "title": "Dritter Punischer Krieg – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Dritter_Punischer_Krieg",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    }
+  ]
+}
