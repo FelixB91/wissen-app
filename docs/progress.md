@@ -1,14 +1,14 @@
 # Fortschritt
 
-Aktuelle Phase: **0 – Fundament**
-Nächste Aufgabe: Phase 0 abschließen (Handy-Test, CI grün, Bestätigung), danach Phase 1
+Aktuelle Phase: **1 – Klick-Prototyp**
+Nächste Aufgabe: Plan für Phase 1 vorlegen (Zod-Schema für Kurse, Lektionen, Karten)
 
 ## Phasen (Details in docs/plan.md, Abschnitt Iterationsplan)
 
 | Phase | Ziel | Definition of Done | Status |
 | --- | --- | --- | --- |
-| 0 Fundament | Projekt, Tooling, CI | App läuft im Browser und per Link auf dem Handy | in Arbeit |
-| 1 Klick-Prototyp | 1 Kurs, 3 Lektionen, Lektion-Player | Lernkonzept selbst getestet | offen |
+| 0 Fundament | Projekt, Tooling, CI | App läuft im Browser und per Link auf dem Handy | fertig (2026-11-15) |
+| 1 Klick-Prototyp | 1 Kurs, 3 Lektionen, Lektion-Player | Lernkonzept selbst getestet | als Nächstes |
 | 2 Lernengine | Fortschritt, FSRS, Fehler-Runde, PWA | 2 Wochen selbst genutzt | offen |
 | 3 Inhalte & Bilder | Supabase, Directus, Bildfragen | 3 Bereiche, Bildfragen laufen | offen |
 | 4 Konten & Sync | Login, geräteübergreifender Fortschritt | Handy und Tablet synchron | offen |
@@ -20,7 +20,7 @@ Nächste Aufgabe: Phase 0 abschließen (Handy-Test, CI grün, Bestätigung), dan
 - [x] Ordnerstruktur laut docs/plan.md (app/, src/engine, src/content, src/db, src/components, src/theme, content/, scripts/, docs/)
 - [x] ESLint, Prettier, Jest, npm-Skripte (lint, typecheck, test, validate:content)
 - [x] GitHub-Repo und GitHub-Actions-CI (lint, typecheck, test)
-- [ ] Platzhalter-Startseite läuft mit `npm run web` und im Handy-Browser
+- [x] Platzhalter-Startseite läuft mit `npm run web` und im Handy-Browser
 
 ## Phase 1 – Klick-Prototyp
 - [ ] Zod-Schema für Kurse, Lektionen, Karten (inkl. depth, sources)
