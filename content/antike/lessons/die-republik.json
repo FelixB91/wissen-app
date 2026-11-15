@@ -1,0 +1,211 @@
+{
+  "id": "die-republik",
+  "title": "Die Republik",
+  "est_minutes": 8,
+  "cards": [
+    {
+      "id": "republik-001",
+      "type": "explain",
+      "depth": "hook",
+      "concepts": ["rom-republik"],
+      "title": "Zwei Chefs, ein Jahr",
+      "body": "Wusstest du? Fast 500 Jahre lang wählte Rom jedes Jahr zwei neue Staatsspitzen – und beide durften sich gegenseitig stoppen. Warum so kompliziert?",
+      "sources": [
+        {
+          "title": "Römische Republik – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_Republik",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-002",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["rom-republik"],
+      "title": "Von der Monarchie zur Republik",
+      "body": "Nach der Vertreibung des letzten Königs 509 v. Chr. wollten die Römer nie wieder einen Alleinherrscher. An die Spitze traten zwei Konsuln, die nur ein Jahr im Amt blieben und sich gegenseitig kontrollierten. Das Wort Republik kommt vom lateinischen res publica, der „öffentlichen Sache“.",
+      "remember": "Macht teilen statt Alleinherrschaft.",
+      "sources": [
+        {
+          "title": "Römische Republik – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_Republik",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-003",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["rom-konsuln-senat"],
+      "title": "Konsuln und Senat",
+      "body": "Die beiden Konsuln führten das Heer und leiteten die Regierung. Beraten wurden sie vom Senat, einer Versammlung erfahrener Männer, meist früherer Amtsträger. Jeder Konsul konnte die Entscheidung seines Kollegen blockieren (Veto). Dieses Prinzip, Macht aufzuteilen und gegenseitig zu kontrollieren, prägt Demokratien bis heute – selbst der Senat der USA trägt seinen Namen nach dem römischen Vorbild.",
+      "remember": "Zwei Konsuln mit Veto, dazu ein beratender Senat.",
+      "sources": [
+        {
+          "title": "Konsul (Antike) – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Konsul_(Antike)",
+          "kind": "wikipedia"
+        },
+        {
+          "title": "Römischer Senat – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mischer_Senat",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-004",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["rom-staendekaempfe"],
+      "title": "Der Streit zwischen Adel und Volk",
+      "body": "Anfangs hatten nur die Patrizier, die adligen Familien, Zugang zu den Ämtern. Die einfachen Bürger, die Plebejer, erkämpften in den Ständekämpfen nach und nach mehr Rechte – darunter eigene Vertreter, die Volkstribunen, die Beschlüsse der Obrigkeit mit einem Veto stoppen konnten.",
+      "remember": "Die Plebejer erkämpften Mitsprache.",
+      "sources": [
+        {
+          "title": "Ständekämpfe – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/St%C3%A4ndek%C3%A4mpfe",
+          "kind": "wikipedia"
+        },
+        {
+          "title": "Volkstribun – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Volkstribun",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-005",
+      "type": "explain",
+      "depth": "deep",
+      "concepts": ["rom-republik"],
+      "title": "Mehr erfahren: Diktator und Ende der Republik",
+      "body": "In Krisen konnte Rom für höchstens sechs Monate einen Diktator ernennen, der alle Macht bündelte – ursprünglich ein Notfallamt. Die Republik endete nach langen Bürgerkriegen: Caesar wurde 44 v. Chr. ermordet, und 27 v. Chr. erhielt sein Adoptivsohn Octavian den Ehrentitel Augustus. Er gilt als erster römischer Kaiser.",
+      "sources": [
+        {
+          "title": "Römische Republik – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_Republik",
+          "kind": "wikipedia"
+        },
+        {
+          "title": "Augustus – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Augustus",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-006",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["rom-republik"],
+      "prompt": "Welche Staatsform löste in Rom um 509 v. Chr. das Königtum ab?",
+      "options": ["Republik", "Kaiserreich", "Tyrannis", "Attische Demokratie"],
+      "answer": 0,
+      "explanation": "Nach der Vertreibung des letzten Königs regierten zwei jährlich gewählte Konsuln. Die Machtteilung sollte eine neue Alleinherrschaft verhindern.",
+      "sources": [
+        {
+          "title": "Römische Republik – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_Republik",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-007",
+      "type": "true_false",
+      "depth": "core",
+      "concepts": ["rom-konsuln-senat"],
+      "prompt": "Die Konsuln regierten auf Lebenszeit.",
+      "answer": false,
+      "explanation": "Konsuln wurden nur für ein Jahr gewählt. So sollte verhindert werden, dass sich jemand dauerhaft an der Macht festsetzt.",
+      "sources": [
+        {
+          "title": "Konsul (Antike) – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Konsul_(Antike)",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-008",
+      "type": "fill_blank",
+      "depth": "core",
+      "concepts": ["rom-konsuln-senat"],
+      "prompt": "Die Republik Rom wurde jährlich von zwei ___ geführt.",
+      "options": ["Konsuln", "Königen", "Tribunen"],
+      "answer": 0,
+      "explanation": "Die beiden Konsuln waren die höchsten Amtsträger. Die Volkstribunen waren eine andere Gruppe: Sie vertraten die Plebejer.",
+      "sources": [
+        {
+          "title": "Konsul (Antike) – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Konsul_(Antike)",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-009",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["rom-staendekaempfe"],
+      "prompt": "Wie hießen die Vertreter der einfachen Bürger, die Beschlüsse der Obrigkeit mit einem Veto stoppen konnten?",
+      "options": ["Volkstribunen", "Senatoren", "Zensoren", "Legaten"],
+      "answer": 0,
+      "explanation": "Die Volkstribunen schützten die Plebejer und konnten gegen Entscheidungen der Obrigkeit Einspruch einlegen.",
+      "sources": [
+        {
+          "title": "Volkstribun – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Volkstribun",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-010",
+      "type": "true_false",
+      "depth": "core",
+      "concepts": ["rom-konsuln-senat"],
+      "prompt": "Ein Konsul konnte die Entscheidung seines Amtskollegen blockieren.",
+      "answer": true,
+      "explanation": "Jeder Konsul hatte ein Vetorecht (lateinisch „ich verbiete“). So kontrollierten sich die beiden gegenseitig.",
+      "sources": [
+        {
+          "title": "Konsul (Antike) – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Konsul_(Antike)",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "republik-011",
+      "type": "fill_blank",
+      "depth": "core",
+      "concepts": ["rom-republik"],
+      "prompt": "Das Wort „Republik“ geht auf das lateinische res ___ zurück, die „öffentliche Sache“.",
+      "options": ["publica", "privata", "regalis"],
+      "answer": 0,
+      "explanation": "Res publica bedeutet „öffentliche Sache“: Der Staat gehörte nicht einem Herrscher, sondern allen Bürgern.",
+      "sources": [
+        {
+          "title": "Römische Republik – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_Republik",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    }
+  ]
+}
