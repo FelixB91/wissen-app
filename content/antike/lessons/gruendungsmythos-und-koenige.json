@@ -1,0 +1,179 @@
+{
+  "id": "gruendungsmythos-und-koenige",
+  "title": "Gründungsmythos & Könige",
+  "est_minutes": 7,
+  "cards": [
+    {
+      "id": "gruendung-001",
+      "type": "explain",
+      "depth": "hook",
+      "concepts": ["rom-gruendung"],
+      "title": "Zwillinge, eine Wölfin und ein Mord",
+      "body": "Wusstest du? Roms Gründungsgeschichte beginnt mit zwei ausgesetzten Zwillingen, die von einer Wölfin gesäugt worden sein sollen – und sie endet mit einem Brudermord. Was steckt dahinter?",
+      "sources": [
+        {
+          "title": "Romulus und Remus – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Romulus_und_Remus",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-002",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["rom-gruendung"],
+      "title": "Die Legende von Romulus und Remus",
+      "body": "Der Sage nach waren Romulus und Remus Zwillinge, Söhne des Kriegsgotts Mars. Am Tiber ausgesetzt, wurden sie von einer Wölfin gesäugt und dann von einem Hirten aufgezogen. Beim Streit um die Gründung einer Stadt erschlug Romulus seinen Bruder und gab der Stadt seinen Namen: Rom. Als Gründungsjahr galt später 753 v. Chr.",
+      "remember": "Rom wird 753 v. Chr. gegründet – so erzählt es die Legende, nicht die Archäologie.",
+      "sources": [
+        {
+          "title": "Romulus und Remus – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Romulus_und_Remus",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-003",
+      "type": "explain",
+      "depth": "core",
+      "concepts": ["rom-koenigszeit"],
+      "title": "Die sieben Könige",
+      "body": "Nach der Überlieferung regierten zunächst sieben Könige in Rom, von Romulus bis Tarquinius Superbus. Die beiden Tarquinier unter ihnen galten als Etrusker: Rom stand damals stark unter dem Einfluss dieses Nachbarvolks. Wie viel davon historisch ist, ist unklar, denn die Königsliste wurde erst Jahrhunderte später aufgeschrieben. 509 v. Chr. wurde der letzte König vertrieben – das Ende der Königszeit.",
+      "remember": "Sieben Könige, Ende der Königszeit 509 v. Chr.",
+      "sources": [
+        {
+          "title": "Römische Königszeit – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_K%C3%B6nigszeit",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-004",
+      "type": "explain",
+      "depth": "deep",
+      "concepts": ["rom-gruendung"],
+      "title": "Mehr erfahren: Mythos und Archäologie",
+      "body": "Archäologische Funde zeigen Siedlungen auf dem Palatin und den umliegenden Hügeln, die sich vermutlich nach und nach zu einer Stadt verbanden – eher ein Prozess als ein einzelnes Gründungsdatum. Der Dichter Vergil führte Roms Ursprung in seiner „Aeneis“ zusätzlich auf den Trojaner Aeneas zurück, einen Flüchtling aus dem brennenden Troja.",
+      "sources": [
+        {
+          "title": "Romulus und Remus – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Romulus_und_Remus",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-005",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["rom-gruendung"],
+      "prompt": "Nach der Sage gründete ein Mann die Stadt Rom und gab ihr seinen Namen. Wer war es?",
+      "options": ["Romulus", "Remus", "Julius Caesar", "Augustus"],
+      "answer": 0,
+      "explanation": "Romulus erschlug im Streit seinen Zwillingsbruder Remus und benannte die Stadt nach sich. Caesar und Augustus lebten viel später.",
+      "sources": [
+        {
+          "title": "Romulus und Remus – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Romulus_und_Remus",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-006",
+      "type": "true_false",
+      "depth": "core",
+      "concepts": ["rom-gruendung"],
+      "prompt": "Die Gründung Roms im Jahr 753 v. Chr. ist archäologisch eindeutig belegt.",
+      "answer": false,
+      "explanation": "753 v. Chr. ist ein Datum der römischen Überlieferung, das Gelehrte erst Jahrhunderte später festlegten. Die Funde sprechen eher für ein allmähliches Zusammenwachsen mehrerer Siedlungen.",
+      "sources": [
+        {
+          "title": "Romulus und Remus – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Romulus_und_Remus",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-007",
+      "type": "fill_blank",
+      "depth": "core",
+      "concepts": ["rom-gruendung"],
+      "prompt": "Der Sage nach wurden Romulus und Remus von einer ___ gesäugt.",
+      "options": ["Wölfin", "Ziege", "Bärin"],
+      "answer": 0,
+      "explanation": "Die Wölfin gehört zum Gründungsmythos. Die „Kapitolinische Wölfin“, eine Bronzefigur, ist bis heute ein Wahrzeichen Roms.",
+      "sources": [
+        {
+          "title": "Kapitolinische Wölfin – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Kapitolinische_W%C3%B6lfin",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-008",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["rom-koenigszeit"],
+      "prompt": "Wie viele Könige regierten nach der Überlieferung in Rom?",
+      "options": ["3", "5", "7", "12"],
+      "answer": 2,
+      "explanation": "Die Überlieferung nennt sieben Könige, von Romulus bis Tarquinius Superbus.",
+      "sources": [
+        {
+          "title": "Römische Königszeit – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_K%C3%B6nigszeit",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-009",
+      "type": "true_false",
+      "depth": "core",
+      "concepts": ["rom-koenigszeit"],
+      "prompt": "Nach der Überlieferung endete die Königszeit 509 v. Chr. mit der Vertreibung des letzten Königs.",
+      "answer": true,
+      "explanation": "Mit der Vertreibung von Tarquinius Superbus endete der Überlieferung nach die Königsherrschaft, Rom wurde Republik.",
+      "sources": [
+        {
+          "title": "Römische Königszeit – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/R%C3%B6mische_K%C3%B6nigszeit",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    },
+    {
+      "id": "gruendung-010",
+      "type": "multiple_choice",
+      "depth": "core",
+      "concepts": ["rom-koenigszeit"],
+      "prompt": "Welches Volk prägte Rom in der Königszeit stark?",
+      "options": ["Etrusker", "Perser", "Wikinger", "Ägypter"],
+      "answer": 0,
+      "explanation": "Die Etrusker lebten nördlich von Rom in Etrurien (etwa der heutigen Toskana). Die Römer übernahmen von ihnen Einflüsse, etwa in Religion und Bauwesen.",
+      "sources": [
+        {
+          "title": "Etrusker – Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Etrusker",
+          "kind": "wikipedia"
+        }
+      ],
+      "review_status": "draft"
+    }
+  ]
+}

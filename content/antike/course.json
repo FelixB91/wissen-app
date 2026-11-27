@@ -1,0 +1,62 @@
+{
+  "id": "antike",
+  "title": "Antike",
+  "level": "beginner",
+  "domain": { "id": "geschichte", "title": "Geschichte" },
+  "units": [
+    {
+      "id": "roemisches-reich",
+      "title": "Römisches Reich",
+      "lessons": ["gruendungsmythos-und-koenige", "die-republik", "punische-kriege"]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "rom-gruendung",
+      "title": "Gründungsmythos Roms",
+      "summary": "Die Sage von Romulus und Remus erklärt, wie Rom entstanden sein soll."
+    },
+    {
+      "id": "rom-koenigszeit",
+      "title": "Römische Königszeit",
+      "summary": "Rom wurde zunächst von Königen regiert, bis 509 v. Chr. der letzte vertrieben wurde.",
+      "requires": ["rom-gruendung"]
+    },
+    {
+      "id": "rom-republik",
+      "title": "Römische Republik",
+      "summary": "Staatsform ohne König, in der gewählte Amtsträger die Macht teilten.",
+      "requires": ["rom-koenigszeit"]
+    },
+    {
+      "id": "rom-konsuln-senat",
+      "title": "Konsuln und Senat",
+      "summary": "Zwei jährlich gewählte Konsuln leiteten Rom, beraten vom Senat.",
+      "requires": ["rom-republik"]
+    },
+    {
+      "id": "rom-staendekaempfe",
+      "title": "Ständekämpfe",
+      "summary": "Die einfachen Bürger erkämpften gegenüber dem Adel mehr Rechte.",
+      "requires": ["rom-republik"]
+    },
+    {
+      "id": "punische-kriege",
+      "title": "Punische Kriege",
+      "summary": "Drei Kriege zwischen Rom und Karthago um die Vorherrschaft im westlichen Mittelmeer.",
+      "requires": ["rom-republik"]
+    },
+    {
+      "id": "hannibal",
+      "title": "Hannibal",
+      "summary": "Karthagischer Feldherr, der mit Elefanten die Alpen überquerte und Rom fast bezwang.",
+      "requires": ["punische-kriege"]
+    },
+    {
+      "id": "karthago-zerstoerung",
+      "title": "Zerstörung Karthagos",
+      "summary": "146 v. Chr. zerstörte Rom Karthago und wurde zur Großmacht im Mittelmeer.",
+      "requires": ["punische-kriege"]
+    }
+  ]
+}

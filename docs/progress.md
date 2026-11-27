@@ -1,7 +1,7 @@
 # Fortschritt
 
 Aktuelle Phase: **1 – Klick-Prototyp**
-Nächste Aufgabe: Beispielkurs „Antike“ mit 3 Lektionen als JSON (Entwurf, Fakten danach vom Nutzer prüfen)
+Nächste Aufgabe: Lernpfad-Screen (Inhalte laden, Lektionsstatus in src/engine, zustand); parallel: Fakten der Antike-Karten prüfen
 
 ## Phasen (Details in docs/plan.md, Abschnitt Iterationsplan)
 
@@ -24,7 +24,7 @@ Nächste Aufgabe: Beispielkurs „Antike“ mit 3 Lektionen als JSON (Entwurf, F
 
 ## Phase 1 – Klick-Prototyp
 - [x] Zod-Schema für Kurse, Lektionen, Karten (inkl. depth, sources)
-- [ ] Beispielkurs „Antike“ mit 3 Lektionen als JSON
+- [x] Beispielkurs „Antike“ mit 3 Lektionen als JSON (alle Karten `draft`, Fakten-Review durch den Nutzer offen)
 - [ ] Lernpfad-Screen
 - [ ] Lektion-Player: Erklärkarte, Multiple Choice, Wahr/Falsch, Lückentext
 - [ ] Feedback-Panel mit Begründung und Quellen-Link
