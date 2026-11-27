@@ -8,6 +8,8 @@ export const colors = {
   textSecondary: '#5B616E',
   primary: '#208AEF',
   onPrimary: '#FFFFFF',
+  success: '#2E9E5B',
+  muted: '#9AA0AB',
 } as const;
 
 export const spacing = {
