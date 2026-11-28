@@ -1,59 +1,44 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
+import { Button } from '@/components/button';
+import { LessonPlayer } from '@/components/lesson-player';
 import { getLesson } from '@/content/catalog';
 import { useProgressStore } from '@/state/progress-store';
-import { colors, fontSizes, maxContentWidth, radii, spacing } from '@/theme';
+import { colors, fontSizes, spacing } from '@/theme';
 
-/** Placeholder until the lesson player (Phase 1, step 4) replaces it. */
 export default function LessonScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const router = useRouter();
   const completeLesson = useProgressStore((state) => state.completeLesson);
   const lesson = getLesson(id);
 
-  return (
-    <View style={styles.screen}>
-      <View style={styles.column}>
+  // Deep links have no history to go back to, so fall back to the learning path.
+  const leave = () => (router.canGoBack() ? router.back() : router.replace('/'));
+
+  if (!lesson) {
+    return (
+      <View style={styles.missing}>
         <Text accessibilityRole="header" style={styles.title}>
-          {lesson ? lesson.title : 'Lektion nicht gefunden'}
+          Lektion nicht gefunden
         </Text>
-        <Text style={styles.text}>Der Lektion-Player folgt im nächsten Schritt.</Text>
-        {lesson ? (
-          <Pressable
-            accessibilityRole="button"
-            style={styles.button}
-            onPress={() => {
-              completeLesson(lesson.id);
-              router.back();
-            }}>
-            <Text style={styles.buttonText}>Lektion abschließen (Platzhalter)</Text>
-          </Pressable>
-        ) : null}
-        <Pressable accessibilityRole="button" onPress={() => router.back()}>
-          <Text style={styles.link}>Zurück</Text>
-        </Pressable>
+        <Button label="Zurück" onPress={leave} />
       </View>
-    </View>
+    );
+  }
+
+  return (
+    <LessonPlayer lesson={lesson} onComplete={() => completeLesson(lesson.id)} onExit={leave} />
   );
 }
 
 const styles = StyleSheet.create({
-  screen: {
+  missing: {
     flex: 1,
-    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.md,
     padding: spacing.md,
     backgroundColor: colors.background,
   },
-  column: { width: '100%', maxWidth: maxContentWidth, gap: spacing.md },
-  title: { fontSize: fontSizes.hero, fontWeight: '700', color: colors.text },
-  text: { fontSize: fontSizes.body, color: colors.textSecondary },
-  button: {
-    padding: spacing.md,
-    alignItems: 'center',
-    backgroundColor: colors.primary,
-    borderRadius: radii.md,
-  },
-  buttonText: { fontSize: fontSizes.body, fontWeight: '700', color: colors.onPrimary },
-  link: { fontSize: fontSizes.body, color: colors.primary },
+  title: { fontSize: fontSizes.title, fontWeight: '700', color: colors.text },
 });

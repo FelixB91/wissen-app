@@ -10,6 +10,10 @@ export const colors = {
   onPrimary: '#FFFFFF',
   success: '#2E9E5B',
   muted: '#9AA0AB',
+  error: '#D64545',
+  successSoft: '#E6F5EC',
+  errorSoft: '#FBEAEA',
+  primarySoft: '#E6F1FD',
 } as const;
 
 export const spacing = {
