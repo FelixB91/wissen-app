@@ -1,7 +1,7 @@
 # Fortschritt
 
 Aktuelle Phase: **1 – Klick-Prototyp**
-Nächste Aufgabe: Lernpfad-Screen (Inhalte laden, Lektionsstatus in src/engine, zustand); parallel: Fakten der Antike-Karten prüfen
+Nächste Aufgabe: Lektion-Player (Erklärkarte, Multiple Choice, Wahr/Falsch, Lückentext) mit Feedback-Panel und Quellen-Link
 
 ## Phasen (Details in docs/plan.md, Abschnitt Iterationsplan)
 
@@ -25,7 +25,7 @@ Nächste Aufgabe: Lernpfad-Screen (Inhalte laden, Lektionsstatus in src/engine, 
 ## Phase 1 – Klick-Prototyp
 - [x] Zod-Schema für Kurse, Lektionen, Karten (inkl. depth, sources)
 - [x] Beispielkurs „Antike“ mit 3 Lektionen als JSON (alle Karten `draft`, Fakten-Review durch den Nutzer offen)
-- [ ] Lernpfad-Screen
+- [x] Lernpfad-Screen (Lektion-Route ist noch ein Platzhalter mit „Abschließen“-Knopf)
 - [ ] Lektion-Player: Erklärkarte, Multiple Choice, Wahr/Falsch, Lückentext
 - [ ] Feedback-Panel mit Begründung und Quellen-Link
 
@@ -39,6 +39,8 @@ Nächste Aufgabe: Lernpfad-Screen (Inhalte laden, Lektionsstatus in src/engine, 
 | 2026-11-15 | Phase 1 in vier Schritten/PRs: Schema, Inhalt, Lernpfad, Lektion-Player; Design-Mock-up auf später verschoben | Kleine Schritte; Optik erst nach dem Konzepttest |
 | 2026-11-15 | Inhalte unter content/<kurs>/course.json und content/<kurs>/lessons/<lektion>.json; Schema inkl. Querprüfungen in einer Datei (src/content/schema.ts) | Skript lädt TS direkt per Node, ohne Build-Schritt oder @types/node |
 | 2026-11-15 | zod und (ab Lernpfad) zustand freigegeben | Rückfrage beantwortet |
+| 2026-11-27 | Routen: `app/(tabs)/…` für die Tabs, `app/lesson/[id]` als Vollbild außerhalb der Tabs; Lektionen werden linear freigeschaltet (Konzept-Voraussetzungen erst später) | Entspricht plan.md; einfachste Regel für den Prototyp |
+| 2026-11-27 | Fortschritt in Phase 1 nur im Arbeitsspeicher (zustand, `src/state`), Persistenz folgt in Phase 2 über `src/db` | Keine Phase-2-Arbeit vorgezogen |
 
 ## Backlog (Ideen für später)
 -

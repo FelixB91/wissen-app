@@ -1,18 +1,10 @@
-import { Tabs } from 'expo-router';
-
-import { colors } from '@/theme';
+import { Stack } from 'expo-router';
 
 export default function RootLayout() {
   return (
-    <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: colors.primary,
-        headerShown: false,
-      }}>
-      <Tabs.Screen name="index" options={{ title: 'Lernen' }} />
-      <Tabs.Screen name="wiederholen" options={{ title: 'Wiederholen' }} />
-      <Tabs.Screen name="entdecken" options={{ title: 'Entdecken' }} />
-      <Tabs.Screen name="profil" options={{ title: 'Profil' }} />
-    </Tabs>
+    <Stack screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="(tabs)" />
+      <Stack.Screen name="lesson/[id]" options={{ presentation: 'fullScreenModal' }} />
+    </Stack>
   );
 }
